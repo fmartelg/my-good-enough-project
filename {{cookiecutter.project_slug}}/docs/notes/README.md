@@ -1,1 +1,3 @@
-# Project notes\nPurpose: working notes and ideas.
+# Project notes
+
+Purpose: working notes and ideas.
