@@ -2,15 +2,38 @@
 
 Basic project scaffolding adapted from [good-enough-project](https://github.com/bvreede/good-enough-project) by [Barbara Vreede](https://github.com/bvreede), which is based on [Reproducible Science Cookiecutter](https://github.com/mkrapp/cookiecutter-reproducible-science) template by [Mario Krapp](https://github.com/mkrapp)
 
-## Requirements
+## Project setup
 
-Install `cookiecutter` on the command line: `pip install cookiecutter`
+1. Create project folder
+2. Open a terminal in your project folder and create and activate a virtual python environment.
 
-## Usage
+> `python -m venv .venve`
+> `.\.venv\Scripts\activate`
 
-To start a new science project:
+3. Update `pip`
 
-`cookiecutter gh:fmartelg/my-good-enough-project`
+> python -m pip install --upgrade pip
+
+4. Install cookiecutter
+
+> pip install cookiecutter
+
+5. Scaffold project
+
+> cookiecutter gh:fmartelg/my-good-enough-project
+
+6. Install dev tools
+
+> pip install pip-tools
+
+7. Create file `requirements.in` e.g.
+
+> pandas
+> scikit-learn>=1.2
+
+8. Compile to pinned `requirements.txt`
+
+> pip-compile requirements.in
 
 ## Project Structure
 
