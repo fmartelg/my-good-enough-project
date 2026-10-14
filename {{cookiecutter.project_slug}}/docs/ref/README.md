@@ -1,1 +1,3 @@
-# Reference documents\nPurpose: store reference docs.
+# Reference documents
+
+Purpose: store reference docs.
