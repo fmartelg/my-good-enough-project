@@ -12,7 +12,7 @@ Install `cookiecutter` on the command line: `pip install cookiecutter`
 
 To start a new science project:
 
-`cookiecutter gh:bvreede/good-enough-project`
+`cookiecutter gh:fmartelg/my-good-enough-project`
 
 ## Project Structure
 
