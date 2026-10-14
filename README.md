@@ -4,36 +4,38 @@ Basic project scaffolding adapted from [good-enough-project](https://github.com/
 
 ## Project setup
 
-1. Create project folder
-2. Open a terminal in your project folder and create and activate a virtual python environment.
+1. Open projects folder and use cookiecutter installed in base distribution to create a new project folder and scaffolding.
 
-> `python -m venv .venve`
-> `.\.venv\Scripts\activate`
+   `cd C:\Projects`
+   `cookiecutter gh:fmartelg/my-good-enough-project`
 
-3. Update `pip`
+2. Change to the project folder and create and activate a virtual python environment.
 
-> python -m pip install --upgrade pip
+   `cd C:\Projects\mynewproj`
+   `python -m venv .venv`  
+   `.\.venv\Scripts\activate`
 
-4. Install cookiecutter
+3. Initialize Git repo
 
-> pip install cookiecutter
+   `git init`
 
-5. Scaffold project
+4. Update pip and install dev tools
 
-> cookiecutter gh:fmartelg/my-good-enough-project
+   `python.exe -m pip install --upgrade pip`
+   `pip install pip-tools`
 
-6. Install dev tools
+5. Create file `requirements.in` e.g.
 
-> pip install pip-tools
+   `pandas`  
+   `scikit-learn>=1.2`
 
-7. Create file `requirements.in` e.g.
+6. Compile to pinned `requirements.txt`
 
-> pandas
-> scikit-learn>=1.2
+   `pip-compile requirements.in`
 
-8. Compile to pinned `requirements.txt`
+7. Install requirements
 
-> pip-compile requirements.in
+   `pip-sync requirements.txt`
 
 ## Project Structure
 
