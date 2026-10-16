@@ -11,7 +11,7 @@ Basic project scaffolding adapted from [good-enough-project](https://github.com/
 
 2. Change to the project folder and create and activate a virtual python environment.
 
-   `cd C:\Projects\mynewproj`
+   `cd C:\Projects\mynewproj`  
    `python -m venv .venv`  
    `.\.venv\Scripts\activate`
 
@@ -21,7 +21,7 @@ Basic project scaffolding adapted from [good-enough-project](https://github.com/
 
 4. Update pip and install dev tools
 
-   `python.exe -m pip install --upgrade pip`
+   `python.exe -m pip install --upgrade pip`  
    `pip install pip-tools`
 
 5. Create file `requirements.in` e.g.
