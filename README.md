@@ -6,7 +6,7 @@ Basic project scaffolding adapted from [good-enough-project](https://github.com/
 
 1. Open projects folder and use cookiecutter installed in base distribution to create a new project folder and scaffolding.
 
-   `cd C:\Projects`
+   `cd C:\Projects`  
    `cookiecutter gh:fmartelg/my-good-enough-project`
 
 2. Change to the project folder and create and activate a virtual python environment.
